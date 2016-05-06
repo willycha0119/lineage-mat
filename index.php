@@ -1,5 +1,5 @@
 <?php
-header("Content-Type:text/html; charset=utf-8");
+header("Content-Type:text/html; charset=BIG5");
 ?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=BIG5">
