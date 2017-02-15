@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 861239820
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: level2.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: level1.unity3d
+      Dependencies: {}
