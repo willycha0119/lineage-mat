@@ -1,0 +1,14 @@
+[  
+   {  
+      "ScenePath":"https://lineage-material.herokuapp.com/lobby.unity3d",      
+      "PicturePath":"https://lineage-material.herokuapp.com/lobby.jpg",
+      "SceneName":"Lobby",
+      "Enable":"Y"
+   },
+   {  
+      "ScenePath":"https://lineage-material.herokuapp.com/lobby2.unity3d",
+      "PicturePath":"https://lineage-material.herokuapp.com/lobby2.jpg",
+      "SceneName":"Lobby2",
+      "Enable":"Y"
+   }
+]
