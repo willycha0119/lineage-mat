@@ -1,10 +1,10 @@
 ManifestFileVersion: 0
-CRC: 58810082
+CRC: 2643432686
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: lobby.unity3d
+      Name: c.unity3d
       Dependencies: {}
     Info_1:
-      Name: lobby2.unity3d
+      Name: abc.unity3d
       Dependencies: {}
