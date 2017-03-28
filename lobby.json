@@ -1,11 +1,12 @@
 {  
+   "Version":"1.0",
    "Items":[  
       {  
          "Place":"RawImage_01",
          "ScenePath":"https://lineage-material.herokuapp.com/lobby.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_01.jpg",
          "SceneName":"Lobby",
-         "Version":"1.2",
+         "Version":"1.0",
          "Enable":"Y"
       },
       {  
