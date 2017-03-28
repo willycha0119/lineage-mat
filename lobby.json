@@ -1,5 +1,5 @@
 {  
-   "Version":"1.1",
+   "Version":"1.0",
    "Items":[  
       {  
          "Place":"RawImage_01",
@@ -10,7 +10,7 @@
          "Enable":"Y"
       },
       {  
-         "Place":"RawImage_44",
+         "Place":"RawImage_02",
          "ScenePath":"https://lineage-material.herokuapp.com/lobby2.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_02.jpg",
          "SceneName":"Lobby2",
