@@ -1,12 +1,12 @@
 {  
-   "Version":"1.3",
+   "Version":"1.4",
    "Items":[  
       {  
          "Place":"RawImage_01",
          "ScenePath":"abc.unity3d",
          "PicturePath":"menu_01.jpg",
          "SceneName":"2017_c_01",
-         "Version":"1.1",
+         "Version":"1.2",
          "Enable":"Y"
       },
       {  
