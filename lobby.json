@@ -1,51 +1,51 @@
 {  
-   "Version":"1.1",
+   "Version":"1.2",
    "Items":[  
       {  
          "Place":"RawImage_01",
-         "ScenePath":"lobby.unity3d",
+         "ScenePath":"abc.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_01.jpg",
-         "SceneName":"Lobby",
+         "SceneName":"2017_c_01",
          "Version":"1.0",
          "Enable":"Y"
       },
       {  
          "Place":"RawImage_02",
-         "ScenePath":"lobby2.unity3d",
+         "ScenePath":"abc.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_02.jpg",
-         "SceneName":"Lobby2",
+         "SceneName":"2017_c_01",
          "Version":"1.0",
          "Enable":"Y"
       },
       {  
          "Place":"RawImage_03",
-         "ScenePath":"lobby2.unity3d",
+         "ScenePath":"c.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_03.jpg",
-         "SceneName":"Lobby2",
+         "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
       },
       {  
          "Place":"RawImage_04",
-         "ScenePath":"lobby2.unity3d",
+         "ScenePath":"c.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_04.jpg",
-         "SceneName":"Lobby2",
+         "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
       },
       {  
          "Place":"RawImage_05",
-         "ScenePath":"lobby2.unity3d",
+         "ScenePath":"c.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_05.jpg",
-         "SceneName":"Lobby2",
+         "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
       },
       {  
          "Place":"RawImage_06",
-         "ScenePath":"lobby2.unity3d",
+         "ScenePath":"c.unity3d",
          "PicturePath":"https://lineage-material.herokuapp.com/menu_06.jpg",
-         "SceneName":"Lobby2",
+         "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
       }
