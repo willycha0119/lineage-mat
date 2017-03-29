@@ -4,7 +4,7 @@
       {  
          "Place":"RawImage_01",
          "ScenePath":"abc.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_01.jpg",
+         "PicturePath":"menu_01.jpg",
          "SceneName":"2017_c_01",
          "Version":"1.0",
          "Enable":"Y"
@@ -12,7 +12,7 @@
       {  
          "Place":"RawImage_02",
          "ScenePath":"abc.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_02.jpg",
+         "PicturePath":"menu_02.jpg",
          "SceneName":"2017_c_01",
          "Version":"1.0",
          "Enable":"Y"
@@ -20,7 +20,7 @@
       {  
          "Place":"RawImage_03",
          "ScenePath":"c.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_03.jpg",
+         "PicturePath":"menu_03.jpg",
          "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
@@ -28,7 +28,7 @@
       {  
          "Place":"RawImage_04",
          "ScenePath":"c.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_04.jpg",
+         "PicturePath":"menu_04.jpg",
          "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
@@ -36,7 +36,7 @@
       {  
          "Place":"RawImage_05",
          "ScenePath":"c.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_05.jpg",
+         "PicturePath":"menu_05.jpg",
          "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
@@ -44,7 +44,7 @@
       {  
          "Place":"RawImage_06",
          "ScenePath":"c.unity3d",
-         "PicturePath":"https://lineage-material.herokuapp.com/menu_06.jpg",
+         "PicturePath":"menu_06.jpg",
          "SceneName":"C01",
          "Version":"1.0",
          "Enable":"Y"
