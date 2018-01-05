@@ -2,6 +2,7 @@
 header("Content-Type:text/html; charset=UTF-8");
 ?>
 <head>
+	<title>RO仙境傳說：守護永恆的愛 攻速試算</title>	
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <script>
