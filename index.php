@@ -17,14 +17,26 @@ function caclu() {
 			skill += parseFloat(document.getElementById('skill'+i).value);
 		} 
 	}
-	
+	console.log(skill);
 	if(jobSpd <= 146) { jobSpd = 146; }
-	var normal = ((Math.sqrt(205)-Math.sqrt(agi))*1000/7.15)/1000;		
-	var attrSpd = ((200-(200-(jobSpd-normal+Math.sqrt(agi*9.9999)*0.96))*(1-skill))*1000)/1000;	
-	var armorSpd = (195-attrSpd)*armor ;	
-	var finalSpd = armorSpd + attrSpd;	
-	var finalPad = 50/(200-finalSpd);	
-	var ans = Math.floor(finalPad*1000)/10;	
+	var normal = ((Math.sqrt(205)-Math.sqrt(agi))*1000/7.15)/1000;	
+	
+	var tmp = 1-(jobSpd-144)/50;
+
+	console.log('normal='+normal);
+	var attrSpd = ((200-(200-(jobSpd-normal+Math.sqrt(agi*9.9999)*tmp))*(1-skill))*1000)/1000;
+	
+	console.log('attrSpd='+attrSpd);
+	var armorSpd = (195-attrSpd)*armor ;
+	
+	console.log('armorSpd='+armorSpd);
+	var finalSpd = armorSpd + attrSpd;
+	
+	console.log('finalSpd='+finalSpd);
+	var finalPad = 50/(200-finalSpd);
+	console.log('finalPad='+finalPad);
+	var ans = Math.floor(finalPad*1000)/10;
+	console.log("ans="+ans);
 	document.getElementById('ans').value = ans+"%";
 	var ans2 = (1/(1/(ans/100)+0.1));
 	document.getElementById('ans2').value= ans2.toFixed(2)+'次';
