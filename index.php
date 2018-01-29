@@ -49,6 +49,7 @@ function caclu() {
 <table>
 <tr><td align="center">職業武器</td><td>
 <select id="jobSpd">
+<option value="151">　【騎　　士】長劍　</option>
 <option value="148">　【騎士領主】長矛　</option>
 <option value="144">　【騎士領主】長劍　</option>
 <option value="144">　【騎士領主】斧頭　</option>
