@@ -1,8 +1,8 @@
 <?php
 header("Content-Type:text/html; charset=UTF-8");
 ?>
+
 <head>
-	<title>RO仙境傳說：守護永恆的愛 攻速試算</title>	
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <script>
@@ -19,12 +19,27 @@ function caclu() {
 	console.log(skill);
 	if(jobSpd <= 146) { jobSpd = 146; }
 	var normal = ((Math.sqrt(205)-Math.sqrt(agi))*1000/7.15)/1000;	
+	
+	console.log('normal='+normal);
 	var attrSpd = ((200-(200-(jobSpd-normal+Math.sqrt(agi*9.9999)*0.96))*(1-skill))*1000)/1000;
+	
+	console.log('attrSpd='+attrSpd);
 	var armorSpd = (195-attrSpd)*armor ;
+	
+	console.log('armorSpd='+armorSpd);
 	var finalSpd = armorSpd + attrSpd;
+	
+	console.log('finalSpd='+finalSpd);
 	var finalPad = 50/(200-finalSpd);
-	document.getElementById('ans').value=Math.floor(finalPad*1000)/10+"%";
+	console.log('finalPad='+finalPad);
+	var ans = Math.floor(finalPad*1000)/10;
+	console.log("ans="+ans);
+	document.getElementById('ans').value = ans+"%";
+	var ans2 = (1/(1/(ans/100)+0.1));
+	document.getElementById('ans2').value= ans2.toFixed(2)+'次';
+
 }
+
 </script>
 
 <table>
@@ -71,6 +86,7 @@ function caclu() {
 <tr><td align="center">是否使用速度激發(隊友)</td><td><input name="skill4" type="radio" value="0.1" id="skill4" /> 是 <input name="skill4" type="radio" value="0" checked /> 否 </td></tr>
 <tr><td colspan="2"><input type="button" value="計算" onclick="caclu();" style="width:100%;"/></td></tr>
 <tr><td colspan="2">攻速為&nbsp;<input type="text" value="" readOnly id="ans" /> </td></tr>
+<tr><td colspan="2">每秒攻擊次數為&nbsp;<input type="text" value="" readOnly id="ans2" /> </td></tr>
 </table>
 </td><td>
 <table border="1" cellpadding="3" cellspacing="0" style="font-size:8pt;">
