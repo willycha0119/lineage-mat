@@ -89,7 +89,7 @@ function caclu() {
 <tr><td align="center">是否使用速度激發(隊友)</td><td><input name="skill4" type="radio" value="0.1" id="skill4" /> 是 <input name="skill4" type="radio" value="0" checked /> 否 </td></tr>
 <tr><td colspan="2"><input type="button" value="計算" onclick="caclu();" style="width:100%;"/></td></tr>
 <tr><td colspan="2">攻速為&nbsp;<input type="text" value="" readOnly id="ans" /> </td></tr>
-<tr><td colspan="2">每秒攻擊次數為&nbsp;<input type="text" value="" readOnly id="ans2" /><br/>(假設網路延遲0.1秒的情況下)<br/>整理者:9K ~邪惡的小服~ 公會:雨神澈塵煙</td></tr>
+<tr><td colspan="2">每秒攻擊次數為&nbsp;<input type="text" value="" readOnly id="ans2" /><br/>(假設網路延遲0.1秒的情況下)<br/><font color="red"><b>整理者:9K ~邪惡的小服~ 公會:雨神澈塵煙</b></font></td></tr>
 </table>
 </td><td>
 <table border="1" cellpadding="3" cellspacing="0" style="font-size:8pt;">
